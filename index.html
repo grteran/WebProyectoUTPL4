@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Nuestra Familia</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+<body id="cuerpo">
+
+    <header id="cabecera">           
+
+           <form action="search.php" class="buscar">
+
+           <input type="search" placeholder="Iniciar Seción" class="iniciosecion">
+
+            <input type="image" alt="boton buscar" src="imagenes/iconbuscar1.png" title="boton Buscar" class="botonenviar">
+            <input type="image" alt="Aa" src="imagenes/Aa.png" title="Aa" class="botonenviar">
+
+            </form>
+           
+    </header>
+    
+    <img src="imagenes/logo.JPG" id="logo" alt="lOGO">  
+
+    <nav class="navegador"> 
+                
+            <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+
+    </nav>
+
+   <figure class="baner">
+    <img src="imagenes/MedicinaGeneralfoto.JPG" alt="baner Medicina General">
+   </figure>
+
+    <section class="registro">
+        <h2 id="tituloformulario">Registro Paciente</h2>
+        <form action="../../form-result.php" method="post">
+
+           <table id="tabla">
+                <tr>
+                    <td><label>C&eacute;dula:</label></td>
+                    <td><input type="text" name="cedula"></td>
+                    <td><label>Direcci&oacute;n:</label></td>
+                    <td><input type="text" name="direccion"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Nombres: </label></td>
+                    <td><input type="text" name="nombres"></td>
+                    <td><label>Ciudad de Residencia:</label></td>
+                    <td><input type="text" name="ciudad"></td>
+                </tr>
+      
+                <tr>
+                    <td><label>Apellidos: </label></td>
+                    <td><input type="text" name="apellido"></td>
+                    <td><label>Fecha de nacimiento: </label></td>
+                    <td><input type="date" name="fechadenacimiento"></td>
+                </tr>
+                
+
+                <tr>
+                    <td><label>Email: </label></td>
+                    <td><input type="email" name="correo"></td>
+                    <td><label>Genero: </label></td>
+                    <td><input type="text" name="genero"></td>
+                </tr>
+                
+
+                <tr>
+                    <td><label>Tel&eacute;fono: </label></td>
+                    <td><input type="tel" name="telefono"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="botones"><input type="reset" value="Cancelar"></td>
+                    <td class="botones"><input type="submit" value="Registrar"></td>
+                </tr>
+            
+           </table>
+           
+          </form>
+
+    </section>
+
+
+    <footer id="pie">
+        
+        <ul>
+        <li><a href="terminosUso.html"><span>Términos de Uso</span></a></li>
+
+        <li><a href="/declaracionPrivacidad.html"><span>Declaración de privacidad │</span></a></li>
+        
+        <li><a href="/copyright.html"><span>Copyright │</span></a></li>
+
+        <li><a href="/"><span>Accesibilidad │</span></a></li>
+            
+        </ul>
+      
+      </footer>
+    
+</body>
+</html>
